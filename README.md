@@ -15,7 +15,7 @@ Use the following command to configure CMake:
 cd PROJECT_ROOT
 mkdir build && cd build
 cmake -DCMAKE_MODULE_PATH:FILEPATH="PROJECT_ROOT/modules" \
-      -DCMAKE_TOOLCHAIN_FILE:FILEPATH="PROJECT_ROOT/modules/toolchain" \
+      -DCMAKE_TOOLCHAIN_FILE:FILEPATH="PROJECT_ROOT/modules/toolchain.cmake" \
       -DSDCC_ROOT:FILEPATH="SDCC_INSTALLATION_ROOT" ..
 ```
 
